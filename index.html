@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+    </header>
+    <main>
+        <div class="main-contaner">
+            <div class="content">
+                <!-- 옷 선택 칸 -->
+                <div class="clothe-choice">
+                    옷 고르는 칸<br>
+                    <button class="menuButton" onclick="toggleBox('box1')">박스 1</button>
+                    <button class="menuButton" onclick="toggleBox('box2')">박스 2</button>
+                    <button class="menuButton" onclick="toggleBox('box3')">박스 3</button>
+                    <button class="menuButton" onclick="toggleBox('box4')">박스 4</button>
+                    <button class="menuButton" onclick="toggleBox('box5')">박스 5</button>
+                    <button class="menuButton" onclick="toggleBox('box6')">박스 6</button>
+                    <button class="menuButton" onclick="toggleBox('box7')">박스 7</button>
+                    
+                    <div id="box1" class="contentBox" style="display: none;">
+                        <!-- 박스 1 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                    
+                    <div id="box2" class="contentBox" style="display: none;">
+                        <!-- 박스 2 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                    <div id="box3" class="contentBox" style="display: none;">
+                        <!-- 박스 3 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                                        
+                    <div id="box4" class="contentBox" style="display: none;">
+                        <!-- 박스 4 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                                        
+                    <div id="box5" class="contentBox" style="display: none;">
+                        <!-- 박스 5 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                                        
+                    <div id="box6" class="contentBox" style="display: none;">
+                        <!-- 박스 6 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                                        
+                    <div id="box7" class="contentBox" style="display: none;">
+                        <!-- 박스 7 내용 -->
+                        <input type="file" id="fileUpload" accept='image/*' />
+                        <button id="uploadButton">업로드</button>
+                        <div class="img_upload">
+                            <img id="previewImg" width="300" alt="이미지 영역" />
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="site">
+                    사이트 추천
+                    <span>
+                        <a href="https://www.musinsa.com/" target="_blank">무신사</a>
+                        <a href="https://www.ssfshop.com/" target="_blank">SSF 샵</a>
+                        <a href="https://www.29cm.co.kr/" target="_blank">29CM</a>
+                        <a href="https://www.elandmall.co.kr/" target="_blank">이랜드몰</a>
+                        <a href="https://www.fashionplus.co.kr/" target="_blank">패션플러스</a>
+                        <a href="https://www.lfmall.co.kr/" target="_blank">LF몰</a>
+                        <a href="https://www.wconcept.co.kr/" target="_blank">더블유컨셉</a>
+                    </span>
+                </div>
+                <div class="warning">
+
+                    경고
+                    이 페이지를 새로 고침하면 작성한 내용이 모두 지워집니다.
+                </div>
+            </div>
+            <div class="man">
+                <div class="man-info">사용자 정보</div>
+            </div>
+            <div class="info">
+                <div class="information">정보입력</div>
+                <div class="save">저장</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
